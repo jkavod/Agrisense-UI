@@ -1,0 +1,7 @@
+export { default as Logo } from './logo.svg'
+export { default as Favicon } from './favicon.svg'
+export { default as PlayStore } from './googleplay.svg'
+export { default as AppleStore } from './applestore.svg'
+export { default as Icon } from './icon.svg'
+export { default as App } from './aboutapp.png'
+export { default as AppB } from './aboutappimg.png'

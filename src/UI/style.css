@@ -1,0 +1,23 @@
+#header {
+ position: static;
+}
+
+.card {
+ padding: 100px;
+}
+
+.card:hover {
+ padding: 120px;
+}
+
+@media (max-width: 800px) {
+ .card {
+  width: 300px;
+  padding: 80px;
+ }
+
+ .card:hover {
+  padding: 90px;
+ }
+
+}
