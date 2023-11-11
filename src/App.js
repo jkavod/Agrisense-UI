@@ -1,12 +1,15 @@
 import './App.css';
-import { Header, Hero, Body } from './UI'
+import { Header, Hero, Body, AgriFooter } from './UI'
 
 function App() {
   return (
-    <div className="App px-[20px]">
+    <div className="App">
+      <div className='px-[20px]'>
       <Header />
       <Hero />
       <Body />
+      </div>
+      <AgriFooter />
     </div>
   );
 }

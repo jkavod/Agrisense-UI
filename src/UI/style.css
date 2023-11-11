@@ -1,6 +1,5 @@
-#header {
- position: static;
-}
+
+
 
 .card {
  padding: 100px;
@@ -10,14 +9,111 @@
  padding: 120px;
 }
 
+.features-sec {
+ margin: 200px 0;
+}
+
 @media (max-width: 800px) {
  .card {
-  width: 300px;
-  padding: 80px;
+  width: 320px;
+  padding: 60px;
  }
 
  .card:hover {
-  padding: 90px;
+  padding: 80px;
  }
 
+ .features {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .features h1 {
+  font-size: 20px;
+ }
+
+ .features p {
+  font-size: 16px;
+ }
+
+ .features a {
+  padding: 8px 10px;
+ }
+
+ .features img {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 100px;
+  bottom: 0;
+  width: 100px;
+ }
+
+ .features img:last-child {
+  left: 15px;
+  top: 90px;
+ }
+
+ .features img:first-child {
+  left: -25px;
+ }
+
+ .features-card {
+  width: 350px;
+ }
+
+ .feat-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+ }
+
+ .feat-grid .feat-div {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+ }
+
+ .feat-grid .feat-div p {
+  text-align: center;
+ }
+
+ .AppImg {
+  margin: 50px 0;
+ }
+
+ .price {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+ }
+
+ .price .price-card {
+  width: 80vw;
+ }
+
+ .footer-card-A {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+ }
+
+ .footer-card-A h1,
+ .footer-card-A p {
+  text-align: start;
+  font-size: 10px;
+ }
+
+ .footer-card-B {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+ }
+
+ .footer-card-B p,
+ .footer-card-B a {
+  font-size: 10px;
+  text-align: center;
+ }
+
+ .footer-card-B .last-foot {
+  gap: 15px;
+  justify-content: center;
+ }
 }

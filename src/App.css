@@ -1,7 +1,13 @@
 body::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
+  width: 5px;
+  background-color: #ffff;
+  border: #149930 2px solid;
+  cursor: pointer;
  }
  
  body::-webkit-scrollbar-thumb {
-  background-color: transparent; /* Make the thumb transparent */
+  background-color: #149930;
+  border-radius: 100px;
+  height: 10px;
  }
