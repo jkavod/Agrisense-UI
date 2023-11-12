@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         green: "#149930",
         yellow: "#78AA17",
+        greenShade: "rgba(20, 153, 48, 0.7)",
       }
     },
   },
