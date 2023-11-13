@@ -1,58 +1,85 @@
-import { AgrisenseApp, AppleStore, PlayStore } from "../../assets";
+export default function Content() {
+  return (
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="max-w-lg sm:text-center sm:mx-auto">
+        <a
+          href="/"
+          aria-label="Go Home"
+          title="Logo"
+          className="inline-block mb-4"
+        >
+          <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
+            <svg
+              className="w-10 h-10 text-deep-purple-accent-400"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
+          </div>
+        </a>
+        <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+          <span className="relative inline-block">
+            <svg
+              viewBox="0 0 52 24"
+              fill="currentColor"
+              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-32 lg:-mt-10 sm:block"
+            >
+              <defs>
+                <pattern
+                  id="6b0188f3-b7a1-4e9b-b95e-cad916bb3042"
+                  x="0"
+                  y="0"
+                  width=".135"
+                  height=".30"
+                >
+                  <circle cx="1" cy="1" r=".7" />
+                </pattern>
+              </defs>
+              <rect
+                fill="url(#6b0188f3-b7a1-4e9b-b95e-cad916bb3042)"
+                width="52"
+                height="24"
+              />
+            </svg>
+            <span className="relative bg-white">The</span>
+          </span>{' '}
+          Get this App, Available on
+        </h2>
+        <p className="text-base text-gray-700 md:text-lg">
+        Social enterprise, empower communities, paradigm vibrant revolutionary resist. Save the world compassion triple bottom line; global revolutionary green space correlation transparent collaborate.!
+        </p>
+        <hr className="my-8 border-gray-300" />
+        <div className="flex items-center mb-3 sm:justify-center gap-3">
+         
+          <a href="/" className="transition duration-300 hover:shadow-lg">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1000px-Google_Play_Store_badge_EN.svg.png"
+              className="object-cover object-top w-32 mx-auto"
+              alt=""
+            />
+          </a>
 
-export default function Download() {
- return (
-   <div className="bg-white">
-     <div className="mx-auto py-24 sm:px-6 sm:py-32 lg:px-8">
-       <div className="relative isolate overflow-hidden bg-green px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-         <svg
-           viewBox="0 0 1024 1024"
-           className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
-           aria-hidden="true"
-         >
-           <circle cx={512} cy={512} r={512} fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fillOpacity="0.7" />
-           <defs>
-             <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-               <stop stopColor="#149930" />
-               <stop offset={1} stopColor="#78AA17" />
-             </radialGradient>
-           </defs>
-         </svg>
-         <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-           Get this App, Available on
-           </h2>
-           <p className="mt-6 text-lg leading-8 text-gray-300">
-           Social enterprise, empower communities, paradigm vibrant revolutionary resist. Save the world compassion triple bottom line; global revolutionary green space correlation transparent collaborate.!
-           </p>
-           <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-             <a
-               href="#"
-               className="rounded-md bg-green px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white flex items-center justify-center gap-2"
-             >
-              <img src={PlayStore} alt="PlayStore" className="w-10" />
-               Get it on <br/> Google Play
-             </a>
-             <a
-               href="#"
-               className="rounded-md bg-green px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white flex items-center justify-center gap-2"
-             >
-              <img src={AppleStore}  alt="AppStore" className="w-10" />
-                Download on the <br/> App Store
-             </a>
-           </div>
-         </div>
-         <div className="relative mt-16 h-80 lg:mt-8">
-           <img
-             className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
-             src={AgrisenseApp}
-             alt="App screenshot"
-             width={1824}
-             height={1080}
-           />
-         </div>
-       </div>
-     </div>
-   </div>
- )
-}
+          <a href="/" className="mr-3 transition duration-300 hover:shadow-lg">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1000px-Download_on_the_App_Store_Badge.svg.png"
+              className="object-cover object-top w-32 mx-auto"
+              alt=""
+            />
+          </a>
+
+        </div>
+        {/* <p className="max-w-xs text-xs text-gray-600 sm:text-sm sm:max-w-sm sm:mx-auto">
+          Sed ut unde omnis iste natus accusantium doloremque laudantium omnis
+          iste.
+        </p> */}
+      </div>
+    </div>
+  );
+};

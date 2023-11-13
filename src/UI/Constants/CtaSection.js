@@ -1,53 +1,155 @@
-export default function CtaSection() {
- return (
-   <div className="bg-white">
-     <div className="mx-auto py-30 h-[100vh] sm:px-6 sm:py-32 lg:px-4">
-       <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-         <svg
-           viewBox="0 0 1024 1024"
-           className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
-           aria-hidden="true"
-         >
-           <circle cx={512} cy={512} r={512} fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fillOpacity="0.7" />
-           <defs>
-             <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-               <stop stopColor="#7775D6" />
-               <stop offset={1} stopColor="#E935C1" />
-             </radialGradient>
-           </defs>
-         </svg>
-         <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-             Boost your productivity.
-             <br />
-             Start using our app today.
-           </h2>
-           <p className="mt-6 text-lg leading-8 text-gray-300">
-             Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
-           </p>
-           <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-             <a
-               href="#"
-               className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-             >
-               Get started
-             </a>
-             <a href="#" className="text-sm font-semibold leading-6 text-white">
-               Learn more <span aria-hidden="true">→</span>
-             </a>
-           </div>
-         </div>
-         <div className="relative mt-16 h-80 lg:mt-8">
-           <img
-             className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
-             src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-             alt="App screenshot"
-             width={1824}
-             height={1080}
-           />
-         </div>
-       </div>
-     </div>
-   </div>
- )
-}
+export default function Feature() {
+  return (
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="p-8 border-b sm:border-r">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+              <svg
+                className="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
+                stroke="currentColor"
+                viewBox="0 0 52 52"
+              >
+                <polygon
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                />
+              </svg>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">The quick fox</h6>
+            <p className="mb-3 text-sm text-gray-900">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
+            </p>
+          </div>
+        </div>
+        <div className="p-8 border-b lg:border-r">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+              <svg
+                className="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
+                stroke="currentColor"
+                viewBox="0 0 52 52"
+              >
+                <polygon
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                />
+              </svg>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">Leverage agile</h6>
+            <p className="mb-3 text-sm text-gray-900">
+              Storage shed, troughs feed bale manure, is garden wheat oats at
+              augers. Bulls at rose garden cucumbers mice sunflower wheat in
+              pig.
+            </p>
+          </div>
+        </div>
+        <div className="p-8 border-b sm:border-r lg:border-r-0">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+              <svg
+                className="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
+                stroke="currentColor"
+                viewBox="0 0 52 52"
+              >
+                <polygon
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                />
+              </svg>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">Organically grow</h6>
+            <p className="mb-3 text-sm text-gray-900">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
+            </p>
+          </div>
+        </div>
+        <div className="p-8 border-b lg:border-b-0 lg:border-r">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+              <svg
+                className="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
+                stroke="currentColor"
+                viewBox="0 0 52 52"
+              >
+                <polygon
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                />
+              </svg>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">Have a good one</h6>
+            <p className="mb-3 text-sm text-gray-900">
+              Storage shed, troughs feed bale manure, is garden wheat oats at
+              augers. Bulls at rose garden cucumbers mice sunflower wheat in
+              pig.
+            </p>
+          </div>
+        </div>
+        <div className="p-8 border-b sm:border-b-0 sm:border-r">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+              <svg
+                className="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
+                stroke="currentColor"
+                viewBox="0 0 52 52"
+              >
+                <polygon
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                />
+              </svg>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">Trough pomfret</h6>
+            <p className="mb-3 text-sm text-gray-900">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
+            </p>
+          </div>
+        </div>
+        <div className="p-8">
+          <div className="max-w-md text-center">
+            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+              <svg
+                className="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
+                stroke="currentColor"
+                viewBox="0 0 52 52"
+              >
+                <polygon
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                />
+              </svg>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5">Disrupt inspire</h6>
+            <p className="mb-3 text-sm text-gray-900">
+              Storage shed, troughs feed bale manure, is garden wheat oats at
+              augers. Bulls at rose garden cucumbers mice sunflower wheat in
+              pig.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

@@ -1,5 +1,18 @@
 import React from "react";
-import { App, AppB, Icon, AppImgFeat, One, Two, SplashA, Agric, SplashB, Splash, SplashC } from "../assets";
+import {
+  App,
+  AppB,
+  Icon,
+  AppImgFeat,
+  One,
+  Two,
+  SplashA,
+  Agric,
+  AiPriceActions,
+  HealthInsights,
+  FinancialManagement,
+  HerdsManagement,
+} from "../assets";
 import { CarouselScreenshot, Pricing } from ".";
 import Testimonial from "./Testimonial";
 import { BlogSection, Download, Partners, Statistics } from "./Constants";
@@ -28,7 +41,7 @@ export default function Body() {
               aspernatur taciti, maecenas natoque reiciendis aenean, viverra
               unde irure, eum eget voluptate, enim lorem.!
             </p>
-            <div className="grid grid-cols-2 gap-5">
+            <div className="grid grid-cols-2 gap-2 download-btn">
               <a
                 href="#"
                 className="bg-green px-5 py-5 text-center rounded text-white font-bold hover:border-2 hover:text-green hover:bg-white"
@@ -43,32 +56,22 @@ export default function Body() {
               </a>
             </div>
           </div>
-          <div className="ml-5 grid grid-cols-4 justify-end splash-img">
-            <img
-              src={Splash}
+          <div className="ml-5 grid grid-cols-2 justify-end">
+          <img
+              src={App}
               alt="App Image"
-              className="w-[150px]"
-            />
-             <img
-              src={SplashA}
-              alt="App Image"
-              className="w-[150px]"
+              className="absolute top-[-50px] right-[250px]"
             />
             <img
-              src={SplashB}
+              src={AppB}
               alt="App Image"
-              className="w-[150px]"
-            />
-            <img
-              src={SplashC}
-              alt="App Image"
-              className="w-[150px]"
+              className="absolute top-[150px] right-[50px]"
             />
           </div>
         </div>
 
         {/* Features Section */}
-        <div className="features-sec">
+        <div className="features-sec" id="features-section">
           <div className="">
             <div className="flex flex-col gap-4">
               <h1 className="text-center font-bold text-4xl">
@@ -86,7 +89,7 @@ export default function Body() {
               <div className="flex items-center feat-grid gap-10">
                 <div className="flex flex-col gap-20">
                   <div className="flex flex-col items-end gap-4 feat-div">
-                    <div className="flex flex-col items-end gap-4 mb-10 feat-div">
+                    {/* <div className="flex flex-col items-end gap-4 mb-10 feat-div">
                       <h1 className="text-4xl font-bold text-right">
                         Yield Intelligence
                       </h1>
@@ -100,9 +103,9 @@ export default function Body() {
                         real-time to optimize farming practices for higher
                         yields and sustainable growth.
                       </p>
-                    </div>
+                    </div> */}
                     <div className="bg-green p-5" style={shapedBorderStyle}>
-                      <img src={One} alt="" className="w-5 h-5" />
+                      <img src={AiPriceActions} alt="" className="w-5 h-5" />
                     </div>
                     <h1 className="text-2xl">Prescient AI Actions</h1>
                     <p className="text-end text-sm w-[250px]">
@@ -116,7 +119,7 @@ export default function Body() {
                   </div>
                   <div className="flex flex-col items-end gap-4 feat-div">
                     <div className="bg-green p-5" style={shapedBorderStyle}>
-                      <img src={Two} alt="" className="w-5 h-5" />
+                      <img src={HealthInsights} alt="" className="w-5 h-5" />
                     </div>
                     <h1 className="text-2xl">Comprehensive Health Insights</h1>
                     <p className="text-end text-sm w-[250px]">
@@ -134,14 +137,20 @@ export default function Body() {
                 </div>
                 <div className="flex flex-col gap-20">
                   <div className="flex flex-col items-start gap-4 feat-div">
-                  <div className="flex flex-col items-start gap-4 mb-10 feat-div">
-                    <h1 className="text-4xl font-bold text-right">Task-Planning Efficiency</h1>
-                    <p className="text-start text-xl w-[350px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel Lorem ipsum dolor sit amet, consectetur.
-                    </p>
-                  </div>
+                    {/* <div className="flex flex-col items-start gap-4 mb-10 feat-div">
+                      <h1 className="text-4xl font-bold text-right">
+                        Task-Planning Efficiency
+                      </h1>
+                      <p className="text-start text-xl w-[350px]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                        Risus commodo viverra maecenas accumsan lacus vel Lorem
+                        ipsum dolor sit amet, consectetur.
+                      </p>
+                    </div> */}
                     <div className="bg-green p-5" style={shapedBorderStyle}>
-                      <img src={One} alt="" className="w-5 h-5" />
+                      <img src={FinancialManagement} alt="" className="w-5 h-5" />
                     </div>
                     <h1 className="text-2xl">Financial Management</h1>
                     <p className="text-start text-sm w-[250px]">
@@ -157,7 +166,7 @@ export default function Body() {
                   </div>
                   <div className="flex flex-col items-start gap-4 feat-div">
                     <div className="bg-green p-5" style={shapedBorderStyle}>
-                      <img src={Two} alt="" className="w-5 h-5" />
+                      <img src={HerdsManagement} alt="" className="w-5 h-5" />
                     </div>
                     <h1 className="text-2xl">Herds Management</h1>
                     <p className="text-start text-sm w-[250px]">
@@ -187,7 +196,7 @@ export default function Body() {
         </div>
 
         {/* Statistics */}
-        <div className="p-10 bg-white border-2 border-green rounded mt-20">
+        <div className="p-10 bg-white rounded mt-20">
           <Statistics />
         </div>
 
@@ -210,10 +219,16 @@ export default function Body() {
         </div>
 
         {/* Pricing */}
-        <div>
+        <div id="pricing-section">
           <div className="mb-10 flex flex-col gap-3">
-            <h1 className="text-4xl font-bold text-center">AgricSense options</h1>
-            <p className="text-center text-sm px-20">Transform your farm management with our comprehensive service that empowers you to make data-driven decisions and run your farm with utmost efficiency.</p>
+            <h1 className="text-4xl font-bold text-center">
+              AgricSense options
+            </h1>
+            <p className="text-center text-sm px-20">
+              Transform your farm management with our comprehensive service that
+              empowers you to make data-driven decisions and run your farm with
+              utmost efficiency.
+            </p>
           </div>
           <Pricing />
         </div>

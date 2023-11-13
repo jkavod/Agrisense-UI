@@ -11,11 +11,11 @@ const shapedBorderStyle = {
 export default function Hero() {
   return (
     <>
-      <main className="p-6 lg:px-8 w-auto lg:h-[500px]">
+      <main className="px-3 w-auto lg:h-[500px]" id="product-section" >
         <section>
-          <div className="card-holder grid lg:grid-cols-3 gap-5 sm:grid-rows-3 sm:grid-cols-1 justify-center">
+          <div className="card-holder flex gap-5 sm:grid-rows-3 sm:grid-cols-1 justify-center">
             <div className="flex flex-col gap-3 p-10 justify-center items-center bg-gray-50 h-[350px] w-[350px] hover:-translate-y-5 hover:p-14 hover:bg-gray-300 transition-[10s] hover:shadow-lg shadow Hero">
-              <div className="bg-green p-5" style={shapedBorderStyle}>
+              <div className="bg-gray-300 p-5" style={shapedBorderStyle}>
                 <img src={Agriculture} alt="" className="w-10" />
               </div>
               <h1 className="text-2xl text-gray-900">Agriculture</h1>
@@ -24,8 +24,8 @@ export default function Hero() {
                 agri-solutions for Sustainable and Data-Driven farming practices
               </p>
             </div>
-            <div className="flex flex-col gap-3 p-10 justify-center items-center bg-gray-50 h-[350px] w-[350px] hover:-translate-y-5 hover:p-14 hover:bg-gray-300 transition hover:shadow-lg shadow">
-              <div className="bg-green p-5" style={shapedBorderStyle}>
+            <div className="flex flex-col gap-3 p-10 justify-center items-center bg-gray-50 h-[350px] w-[350px] hover:-translate-y-5 hover:p-14 hover:bg-gray-300 transition hover:shadow-lg shadow Hero">
+              <div className="bg-gray-300 p-5" style={shapedBorderStyle}>
                 <img src={AI} alt="" className="w-10" />
               </div>
               <h1 className="text-2xl text-gray-900">AI</h1>
@@ -36,8 +36,8 @@ export default function Hero() {
                 challenges, giving farmers the confidence they need to succeed.
               </p>
             </div>
-            <div className="flex flex-col gap-3 p-10 justify-center items-center bg-gray-50 h-[350px] w-[350px] hover:-translate-y-5 hover:p-14 hover:bg-gray-300 transition hover:shadow-lg shadow">
-              <div className="bg-green p-5" style={shapedBorderStyle}>
+            <div className="flex flex-col gap-3 p-10 justify-center items-center bg-gray-50 h-[350px] w-[350px] hover:-translate-y-5 hover:p-14 hover:bg-gray-300 transition hover:shadow-lg shadow Hero">
+              <div className="bg-gray-300 p-5" style={shapedBorderStyle}>
                 <img src={Sustainability} alt="" className="w-10" />
               </div>
               <h1 className="text-2xl text-gray-900">Sustainability</h1>

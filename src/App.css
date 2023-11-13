@@ -14,20 +14,6 @@ body::-webkit-scrollbar {
  }
 
 
- @media (mx-width: 880px) {
-  body::-webkit-scrollbar {
-    /* display: none; */
-    width: 5px;
-    background-color: #ffff;
-    border: #149930 2px solid;
-    cursor: pointer;
-    scroll-behavior: smooth;
-   }
-   
-   body::-webkit-scrollbar-thumb {
-    background-color: #149930;
-    border-radius: 100px;
-    height: 10px;
-   }
-  
- }
+body {
+  overflow-x: hidden;
+}
