@@ -29,7 +29,7 @@ export default function Body() {
   return (
     <>
       <main className="top-0 relative p-6 lg:px-8 w-auto mt-20 h-auto">
-        <div className="grid grid-cols-2 justify-between items-center features mb-50 gap[100px]">
+        {/* <div className="grid grid-cols-2 justify-between items-center features mb-50 gap[100px]">
           <div className="px-3 w-[500px] flex flex-col gap-6 features-card">
             <h1 className="text-4xl font-bold">
               Dedicate yourself to the things that really matter
@@ -68,6 +68,38 @@ export default function Body() {
               className="absolute top-[150px] right-[50px]"
             />
           </div>
+        </div> */}
+
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
+            <div className="flex flex-col justify-center sm:items-center">
+              <div className="mb-6" id="text-sec">
+                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                  The quick, brown fox
+                  <br className="hidden md:block" />
+                  jumps over{" "}
+                  <span className="relative px-1">
+                    <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400" />
+                    <span className="relative inline-block text-deep-purple-accent-400">
+                      a lazy dog
+                    </span>
+                  </span>
+                </h2>
+                <p className="text-base text-gray-700 md:text-lg">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae. explicabo.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img
+                className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+                src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
 
         {/* Features Section */}
@@ -85,8 +117,8 @@ export default function Body() {
                 <hr className="bg-green h-1 w-20 rounded-sm" />
               </div>
             </div>
-            <div className="flex justify-center">
-              <div className="flex items-center feat-grid gap-10">
+            <div className="lg:flex justify-center">
+              <div className="flex items-center gap-10" id="feat-grid">
                 <div className="flex flex-col gap-20">
                   <div className="flex flex-col items-end gap-4 feat-div">
                     {/* <div className="flex flex-col items-end gap-4 mb-10 feat-div">
@@ -104,7 +136,7 @@ export default function Body() {
                         yields and sustainable growth.
                       </p>
                     </div> */}
-                    <div className="bg-green p-5" style={shapedBorderStyle}>
+                    <div className="bg-green p-2" style={shapedBorderStyle}>
                       <img src={AiPriceActions} alt="" className="w-5 h-5" />
                     </div>
                     <h1 className="text-2xl">Prescient AI Actions</h1>
@@ -118,7 +150,7 @@ export default function Body() {
                     </p>
                   </div>
                   <div className="flex flex-col items-end gap-4 feat-div">
-                    <div className="bg-green p-5" style={shapedBorderStyle}>
+                    <div className="bg-green p-2" style={shapedBorderStyle}>
                       <img src={HealthInsights} alt="" className="w-5 h-5" />
                     </div>
                     <h1 className="text-2xl">Comprehensive Health Insights</h1>
@@ -149,8 +181,12 @@ export default function Body() {
                         ipsum dolor sit amet, consectetur.
                       </p>
                     </div> */}
-                    <div className="bg-green p-5" style={shapedBorderStyle}>
-                      <img src={FinancialManagement} alt="" className="w-5 h-5" />
+                    <div className="bg-green p-2" style={shapedBorderStyle}>
+                      <img
+                        src={FinancialManagement}
+                        alt=""
+                        className="w-5 h-5"
+                      />
                     </div>
                     <h1 className="text-2xl">Financial Management</h1>
                     <p className="text-start text-sm w-[250px]">
@@ -165,7 +201,7 @@ export default function Body() {
                     </p>
                   </div>
                   <div className="flex flex-col items-start gap-4 feat-div">
-                    <div className="bg-green p-5" style={shapedBorderStyle}>
+                    <div className="bg-green p-2" style={shapedBorderStyle}>
                       <img src={HerdsManagement} alt="" className="w-5 h-5" />
                     </div>
                     <h1 className="text-2xl">Herds Management</h1>
@@ -184,14 +220,14 @@ export default function Body() {
 
         {/* App Screenshot */}
         <div>
-          <div className="flex flex-col gap-4 items-center justify-center mb-20 AppScreenshots">
+          {/* <div className="flex flex-col gap-4 items-center justify-center mb-20 AppScreenshots">
             <h1 className="text-4xl font-bold">App Screenshots</h1>
             <p className="text-xl text-gray-400">
               Ut totam hymenaeos a quasi enim, duis erat mollitia, pellentesque
               ac metus!
             </p>
             <div className="divider bg-green h-1 w-20 rounded-md"></div>
-          </div>
+          </div> */}
           <CarouselScreenshot />
         </div>
 
@@ -214,7 +250,7 @@ export default function Body() {
         </div>
 
         {/* Testimonials */}
-        <div className="lg:-mt-48">
+        <div className="lg:-mt-48 mb-32">
           <Testimonial />
         </div>
 
@@ -222,7 +258,7 @@ export default function Body() {
         <div id="pricing-section">
           <div className="mb-10 flex flex-col gap-3">
             <h1 className="text-4xl font-bold text-center">
-              AgricSense options
+              AgricIntuit options
             </h1>
             <p className="text-center text-sm px-20">
               Transform your farm management with our comprehensive service that

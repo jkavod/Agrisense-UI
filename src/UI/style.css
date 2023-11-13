@@ -85,6 +85,7 @@ li a {
     margin: 150px 0 40px 0;
   }
 
+
   .features-sec h1,
   .AppScreenshots h1 {
     font-size: 18px;
@@ -98,7 +99,7 @@ li a {
 
   .card-holder {
     display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+    /* grid-template-columns: repeat(1, minmax(0, 1fr)); */
   }
 
   .Hero {
@@ -167,18 +168,18 @@ li a {
     width: 350px;
   }
 
-  .feat-grid {
+  #feat-grid {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .feat-grid .feat-div {
+  #feat-grid .feat-div {
     justify-content: center;
     align-items: center;
     margin: 0;
   }
 
-  .feat-grid .feat-div p {
+  #feat-grid .feat-div p {
     text-align: center;
   }
 
@@ -232,5 +233,14 @@ li a {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
     text-align: center;
+  }
+
+  #text-sec {
+    text-align: center;
+  }
+
+  .a-sec a {
+    display: flex;
+    justify-content: center;
   }
 }
