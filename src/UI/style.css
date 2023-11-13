@@ -243,4 +243,8 @@ li a {
     display: flex;
     justify-content: center;
   }
+
+  #stats {
+    text-align: center;
+  }
 }

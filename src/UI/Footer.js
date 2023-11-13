@@ -49,14 +49,14 @@ export default function Footer() {
               </span> */}
             </a>
             <div className="mt-4 lg:max-w-sm">
-              <p className="text-sm text-deep-purple-50">
+              <p className="text-xl text-deep-purple-50">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam.
               </p>
-              <p className="mt-4 text-sm text-deep-purple-50">
+              {/* <p className="mt-4 text-sm text-deep-purple-50">
                 Eaque ipsa quae ab illo inventore veritatis et quasi architecto
                 beatae vitae dicta sunt explicabo.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-3">
@@ -68,7 +68,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     Documentation
                   </a>
@@ -76,7 +76,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     FAQ's
                   </a>
@@ -84,7 +84,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     Privacy
                   </a>
@@ -92,7 +92,7 @@ export default function Footer() {
                 {/* <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     References
                   </a>
@@ -107,7 +107,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     About us
                   </a>
@@ -115,7 +115,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     Feedback
                   </a>
@@ -123,7 +123,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     Customers
                   </a>
@@ -138,7 +138,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     <span className="text-gray-800 font-bold text-xl">Office: <span className="text-xl font-normal text-gray-700">88 Upper Coast Side, UK</span></span>
                   </a>
@@ -146,7 +146,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                      <span className="text-gray-800 font-bold text-xl">Call Us: <span className="text-xl font-normal text-gray-700">+9229922177288</span></span>
                   </a>
@@ -154,7 +154,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                      <span className="text-gray-800 font-bold text-xl">Email Us: <span className="text-xl font-normal text-gray-700">info@agricinuit.com</span></span>
                   </a>
@@ -169,7 +169,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     Infopreneur
                   </a>
@@ -177,7 +177,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     Personal
                   </a>
@@ -185,7 +185,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     Wiki
                   </a>
@@ -193,7 +193,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
+                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
                   >
                     Forum
                   </a>
@@ -209,7 +209,7 @@ export default function Footer() {
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
               href="/"
-              className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
+              className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400 text-xl"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
                 <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
