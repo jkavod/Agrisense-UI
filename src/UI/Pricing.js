@@ -170,7 +170,7 @@ export default function Pricing() {
           <div class="dark h-full">
             <div class="relative flex flex-col h-full p-6 rounded-2xl bg-white dark:bg-gray-100 border border-slate-200 dark:border-gray-100 shadow-lg shadow-slate-950/5">
               <div class="absolute top-0 right-0 mr-6 -mt-4">
-                <div class="inline-flex items-center text-xs font-semibold py-1.5 px-3 bg-emerald-500 text-white rounded-full shadow-sm shadow-slate-950/5">
+                <div class="inline-flex items-center text-xs font-semibold py-1.5 px-3 bg-yellow text-white rounded-full shadow-sm shadow-slate-950/5">
                   Popular
                 </div>
               </div>
@@ -350,7 +350,7 @@ export default function Pricing() {
             <div class="relative flex flex-col h-full p-6 rounded-2xl bg-white dark:bg-gray-100 border border-slate-200 dark:border-gray-100 shadow-lg shadow-slate-950/5">
               <div class="mb-5">
                 <div class="absolute top-0 right-0 mr-6 -mt-4">
-                  <div class="inline-flex items-center text-xs font-semibold py-1.5 px-3 bg-emerald-500 text-white rounded-full shadow-sm shadow-slate-950/5">
+                  <div class="inline-flex items-center text-xs font-semibold py-1.5 px-3 bg-yellow text-white rounded-full shadow-sm shadow-slate-950/5">
                     Popular
                   </div>
                 </div>

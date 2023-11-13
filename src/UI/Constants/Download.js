@@ -8,7 +8,7 @@ export default function Content() {
           title="Logo"
           className="inline-block mb-4"
         >
-          <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
+          {/* <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
             <svg
               className="w-10 h-10 text-deep-purple-accent-400"
               stroke="currentColor"
@@ -22,13 +22,13 @@ export default function Content() {
                 points="29 13 14 29 25 29 23 39 38 23 27 23"
               />
             </svg>
-          </div>
+          </div> */}
         </a>
         <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
           <span className="relative inline-block">
             <svg
               viewBox="0 0 52 24"
-              fill="currentColor"
+              fill="#149930"
               className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-32 lg:-mt-10 sm:block"
             >
               <defs>
@@ -53,7 +53,7 @@ export default function Content() {
           Get this App, Available on
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-        Social enterprise, empower communities, paradigm vibrant revolutionary resist. Save the world compassion triple bottom line; global revolutionary green space correlation transparent collaborate.!
+        AgricIntuit: Download now for precise, compassionate solutions—empowering communities with revolutionary, sustainable agricultural practices. Go green, collaborate transparently!
         </p>
         <hr className="my-8 border-gray-300" />
         <div className="flex items-center mb-3 sm:justify-center gap-3">

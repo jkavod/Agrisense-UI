@@ -12,6 +12,7 @@ import {
   HealthInsights,
   FinancialManagement,
   HerdsManagement,
+  ProactiveAI,
 } from "../assets";
 import { CarouselScreenshot, Pricing } from ".";
 import Testimonial from "./Testimonial";
@@ -75,27 +76,28 @@ export default function Body() {
             <div className="flex flex-col justify-center sm:items-center">
               <div className="mb-6" id="text-sec">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                  The quick, brown fox
-                  <br className="hidden md:block" />
+                Precision Farming Revolution
+                  {/* <br className="hidden md:block" />
                   jumps over{" "}
                   <span className="relative px-1">
                     <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400" />
                     <span className="relative inline-block text-deep-purple-accent-400">
                       a lazy dog
                     </span>
-                  </span>
+                  </span> */}
                 </h2>
-                <p className="text-base text-gray-700 md:text-lg">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae. explicabo.
+                <div className="lg:pr-20">
+                <p className="text-base text-justify text-gray-700 md:text-lg">
+                AgricIntuit pioneers precision farming, seamlessly integrating technology and agronomy. From precise seed placement using smart sensors to AI-driven harvesting, AgriSense ensures optimal yield. Predictive analytics empower farmers with actionable insights, elevating efficiency and sustainability. AgricIntuit's commitment extends to personalized consultancy, where expert agronomists collaborate with farmers. In the Precision Farming Revolution, AgricIntuit transforms agriculture into a data-driven, sustainable success.
                 </p>
+                </div>
               </div>
             </div>
             <div>
               <img
-                className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                className="object-cover w-full h-56 rounded shadow-lg sm:h-96 bg-none"
+                // src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                src={ProactiveAI}
                 alt=""
               />
             </div>
@@ -110,8 +112,7 @@ export default function Body() {
                 Awesome Features
               </h1>
               <p className="text-center text-2xl font-semibold text-gray-700">
-                Ut totam hymenaeos a quasi enim, duis erat mollitia,
-                pellentesque ac metus!
+              AgricIntuit: Empowering farmers with precision tech, health insights, and financial mastery.
               </p>
               <div className="flex justify-center items-center mb-20">
                 <hr className="bg-green h-1 w-20 rounded-sm" />
@@ -139,14 +140,15 @@ export default function Body() {
                     <div className="bg-green p-2" style={shapedBorderStyle}>
                       <img src={AiPriceActions} alt="" className="w-5 h-5" />
                     </div>
-                    <h1 className="text-2xl">Prescient AI Actions</h1>
+                    <h1 className="text-2xl">Yield Intelligence</h1>
                     <p className="text-end text-sm w-[250px]">
-                      Agriculturalists need real-time insights and solutions to
-                      address unexpected issues on the farm. AgricSense uses
-                      AI-powered decision-making models to deliver real-time
-                      planting, irrigation, and harvesting guidance. It provides
-                      insights to enhance farm operations while adjusting to
-                      shifting conditions.
+                      Farmers face inefficiencies, crop diseases, pests, weather
+                      uncertainties, yield variations, and sustainability
+                      issues. AgricSense uses precision technology that monitors
+                      weather, soil quality, and animal health, together with
+                      advanced algorithms and data analysis, to provide insights
+                      and statistics in real-time to optimize farming practices
+                      for higher yields and sustainable growth.
                     </p>
                   </div>
                   <div className="flex flex-col items-end gap-4 feat-div">
@@ -165,7 +167,7 @@ export default function Body() {
                   </div>
                 </div>
                 <div className="AppImg">
-                  <img src={SplashA} alt="" className="w-[400px]" />
+                  <img src={SplashA} alt="" className="w-[300px]" />
                 </div>
                 <div className="flex flex-col gap-20">
                   <div className="flex flex-col items-start gap-4 feat-div">
@@ -241,8 +243,7 @@ export default function Body() {
           <div className="flex flex-col justify-center items-center mt-20 gap-3">
             <h1 className="text-4xl font-bold text-center">Quick Overview</h1>
             <p className="text-xl text-center text-gray-500">
-              Ut totam hymenaeos a quasi enim, duis erat mollitia, pellentesque
-              ac metus!
+            AgricIntuit pioneers precision farming for thriving agriculture with real-time insights
             </p>
             <div className="bg-green h-1 w-20 rounded-sm"></div>
           </div>
@@ -260,17 +261,19 @@ export default function Body() {
             <h1 className="text-4xl font-bold text-center">
               AgricIntuit options
             </h1>
-            <p className="text-center text-sm px-20">
-              Transform your farm management with our comprehensive service that
-              empowers you to make data-driven decisions and run your farm with
-              utmost efficiency.
-            </p>
+            <div className="lg:px-48 sm:px-0 md:px-10">
+              <p className="text-center text-xl">
+                Transform your farm management with our comprehensive service
+                that empowers you to make data-driven decisions and run your
+                farm with utmost efficiency.
+              </p>
+            </div>
           </div>
           <Pricing />
         </div>
 
         {/* Download Section */}
-        <div>
+        <div className="lg:mt-20">
           <Download />
         </div>
 

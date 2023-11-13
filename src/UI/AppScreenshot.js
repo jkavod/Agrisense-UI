@@ -1,4 +1,5 @@
 import React from "react";
+import { Remote, TaskA, Yield } from "../assets";
 // import { Splash } from "../assets";
 
 export default function AppScreenshot() {
@@ -27,19 +28,22 @@ export default function AppScreenshot() {
             <div className="flex flex-col items-end px-3">
               <img
                 className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                // src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                src={TaskA}
                 alt=""
               />
               <img
                 className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-                src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                // src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                src={Remote}
                 alt=""
               />
             </div>
             <div className="px-3">
               <img
                 className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-                src="https://images.pexels.com/photos/3182739/pexels-photo-3182739.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+                // src="https://images.pexels.com/photos/3182739/pexels-photo-3182739.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+                src={Yield}
                 alt=""
               />
             </div>
@@ -90,20 +94,22 @@ export default function AppScreenshot() {
             </div>
             <div className="max-w-xl mb-6" id="text-sec">
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                Let us handle 
-                <br className="hidden md:block" />
+                Prescient AI Actions
+                {/* <br className="hidden md:block" />
                  your next{" "}
                 <span className="inline-block text-deep-purple-accent-400">
                   destination
-                </span>
+                </span> */}
               </h2>
-              <p className="text-base text-gray-700 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae. explicabo.
+              <p className="text-base text-gray-700 md:text-lg text-justify">
+                Agriculturalists need real-time insights and solutions to
+                address unexpected issues on the farm. AgricSense uses
+                AI-powered decision-making models to deliver real-time planting,
+                irrigation, and harvesting guidance. It provides insights to
+                enhance farm operations while adjusting to shifting conditions.
               </p>
             </div>
-            <div className="a-sec">
+            {/* <div className="a-sec">
               <a
                 href="/"
                 aria-label=""
@@ -118,7 +124,7 @@ export default function AppScreenshot() {
                   <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
                 </svg>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

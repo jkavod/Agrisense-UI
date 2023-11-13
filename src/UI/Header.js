@@ -101,7 +101,7 @@ export default function Header() {
             AgricIntuit - Agriculture, AI, and Sustainability
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            AgricSense offers complete agricultural management services, including crop planting, growth monitoring, and harvesting.
+            AgricIntuit offers complete agricultural management services, including crop planting, growth monitoring, and harvesting.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
