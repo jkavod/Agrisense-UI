@@ -1,5 +1,6 @@
 import './App.css';
 import { Header, Hero, Body, AgriFooter } from './UI'
+import { Cookies } from './UI/Constants';
 import StaticButton from './UI/Constants/StaticButton';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       </div>
       <AgriFooter />
       <StaticButton />
+      <Cookies />
     </div>
   );
 }

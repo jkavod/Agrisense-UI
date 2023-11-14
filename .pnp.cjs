@@ -43,6 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-icons", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:4.11.0"],\
             ["react-scripts", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:5.0.1"],\
             ["react-slick", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:0.29.0"],\
+            ["react-transition-group", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:4.4.5"],\
             ["slick-carousel", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:1.8.1"],\
             ["tailwindcss", "npm:3.3.5"],\
             ["web-vitals", "npm:2.1.4"]\
@@ -5968,6 +5969,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-icons", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:4.11.0"],\
             ["react-scripts", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:5.0.1"],\
             ["react-slick", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:0.29.0"],\
+            ["react-transition-group", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:4.4.5"],\
             ["slick-carousel", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:1.8.1"],\
             ["tailwindcss", "npm:3.3.5"],\
             ["web-vitals", "npm:2.1.4"]\
@@ -8332,6 +8334,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dom-converter", "npm:0.2.0"],\
             ["utila", "npm:0.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dom-helpers", [\
+        ["npm:5.2.1", {\
+          "packageLocation": "./.yarn/cache/dom-helpers-npm-5.2.1-b38bb4470b-863ba9e086.zip/node_modules/dom-helpers/",\
+          "packageDependencies": [\
+            ["dom-helpers", "npm:5.2.1"],\
+            ["@babel/runtime", "npm:7.23.2"],\
+            ["csstype", "npm:3.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -15744,6 +15757,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:18.2.0"],\
             ["resize-observer-polyfill", "npm:1.5.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-transition-group", [\
+        ["npm:4.4.5", {\
+          "packageLocation": "./.yarn/cache/react-transition-group-npm-4.4.5-98ea4ef96e-7560284010.zip/node_modules/react-transition-group/",\
+          "packageDependencies": [\
+            ["react-transition-group", "npm:4.4.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:4.4.5", {\
+          "packageLocation": "./.yarn/__virtual__/react-transition-group-virtual-0a2813a176/0/cache/react-transition-group-npm-4.4.5-98ea4ef96e-7560284010.zip/node_modules/react-transition-group/",\
+          "packageDependencies": [\
+            ["react-transition-group", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:4.4.5"],\
+            ["@babel/runtime", "npm:7.23.2"],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["dom-helpers", "npm:5.2.1"],\
+            ["loose-envify", "npm:1.4.0"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:d266aee6c13d201c7562c67b2e6ee87da45fb3e9a0a5d0e1c611a3f76c3c80b189a8be091ab3d249ced4a437f544264e2b70daa554a88319dd1b534157375e75#npm:18.2.0"]\
           ],\
           "packagePeers": [\
             "@types/react-dom",\

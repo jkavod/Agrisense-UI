@@ -31,7 +31,7 @@ export default function StaticButton() {
           id="to-top-button"
           onClick={goToTop}
           title="Go To Top"
-          className="fixed bottom-8 right-8 w-16 h-16 rounded-full bg-greenShade text-white text-3xl font-bold focus:outline-none"
+          className="fixed bottom-20 right-8 w-16 h-16 rounded-full bg-greenShade text-white text-3xl font-bold focus:outline-none"
         >
           &uarr;
         </button>

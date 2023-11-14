@@ -1,5 +1,5 @@
 import React from "react";
-import { Remote, TaskA, Yield } from "../assets";
+import { ProactiveAI, Remote, TaskA, Yield } from "../assets";
 // import { Splash } from "../assets";
 
 export default function AppScreenshot() {
@@ -23,9 +23,9 @@ export default function AppScreenshot() {
       </div> */}
 
       <div className="py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:py-20">
-        <div className="grid lg:gap-48 sm:gap-10 lg:grid-cols-2 justify-between">
+        <div className="grid lg:gap-48 sm:gap-10 lg:grid-cols-2 md:grid-cols-1 justify-between">
           <div className="flex items-center justify-center -mx-4 lg:pl-8">
-            <div className="flex flex-col items-end px-3">
+            {/* <div className="flex flex-col items-end px-3">
               <img
                 className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
                 // src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
@@ -38,17 +38,25 @@ export default function AppScreenshot() {
                 src={Remote}
                 alt=""
               />
-            </div>
-            <div className="px-3">
+            </div> */}
+            {/* <div className="px-3">
               <img
                 className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
                 // src="https://images.pexels.com/photos/3182739/pexels-photo-3182739.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
                 src={Yield}
                 alt=""
               />
+            </div> */}
+            <div>
+              <img
+                className="object-cover w-full h-56 rounded shadow-lg sm:h-96 bg-none"
+                // src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                src={Yield}
+                alt=""
+              />
             </div>
           </div>
-          <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
+          <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg" id="pres-farm">
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-accent-400">
               {/* <svg className="text-teal-900 w-7 h-7" viewBox="0 0 24 24">
                 <polyline
@@ -93,15 +101,15 @@ export default function AppScreenshot() {
               </svg> */}
             </div>
             <div className="max-w-xl mb-6" id="text-sec">
-              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              <h1 className="mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                 Prescient AI Actions
                 {/* <br className="hidden md:block" />
                  your next{" "}
                 <span className="inline-block text-deep-purple-accent-400">
                   destination
                 </span> */}
-              </h2>
-              <p className="text-base text-gray-700 md:text-lg text-justify">
+              </h1>
+              <p className="text-base text-gray-700 md:text-lg lg:text-justify">
                 Agriculturalists need real-time insights and solutions to
                 address unexpected issues on the farm. AgricSense uses
                 AI-powered decision-making models to deliver real-time planting,

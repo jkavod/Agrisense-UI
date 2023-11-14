@@ -1,4 +1,5 @@
 import { Linkedin, Logo, Twitter } from "../assets";
+import './style.css'
 
 export default function Footer() {
   return (
@@ -50,7 +51,10 @@ export default function Footer() {
             </a>
             <div className="mt-4 lg:max-w-[300px]">
               <p className="text-xl text-deep-purple-50 text-justify">
-              At AgricIntuit, our ethos centers on delivering cutting-edge, AI-infused agricultural solutions. Our multidisciplinary team crafts innovations to address global farming challenges.
+                Our commitment to delivering cutting-edge, AI-infused products
+                is at the core of our ethos. Our team of multidisciplinary
+                experts collaborates to craft innovative solutions that address
+                global challenges.
               </p>
               {/* <p className="mt-4 text-sm text-deep-purple-50">
                 Eaque ipsa quae ab illo inventore veritatis et quasi architecto
@@ -58,7 +62,7 @@ export default function Footer() {
               </p> */}
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-3 mt-20">
+          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-3 lg:mt-0 sm:mt-20 md:mt-16" id="footer-col">
             <div>
               <p className="font-semibold tracking-wide text-teal-accent-400 text-2xl">
                 Support
@@ -67,7 +71,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
+                    className="transition-colors duration-300 text-gray-800 hover:text-gray-500 hover:text-teal-accent-400 text-xl"
                   >
                     Documentation
                   </a>
@@ -75,7 +79,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
+                    className="transition-colors duration-300 text-gray-800 hover:text-gray-500 hover:text-teal-accent-400 text-xl"
                   >
                     FAQ's
                   </a>
@@ -83,7 +87,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
+                    className="transition-colors duration-300 text-gray-800 hover:text-gray-500 hover:text-teal-accent-400 text-xl"
                   >
                     Privacy
                   </a>
@@ -91,7 +95,7 @@ export default function Footer() {
                 {/* <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
+                    className="transition-colors duration-300 text-gray-800 hover:text-gray-500 hover:text-teal-accent-400 text-xl"
                   >
                     References
                   </a>
@@ -106,7 +110,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
+                    className="transition-colors duration-300 text-gray-800 hover:text-gray-500 hover:text-teal-accent-400 text-xl"
                   >
                     About us
                   </a>
@@ -114,7 +118,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
+                    className="transition-colors duration-300 text-gray-800 hover:text-gray-500 hover:text-teal-accent-400 text-xl"
                   >
                     Feedback
                   </a>
@@ -122,7 +126,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
+                    className="transition-colors duration-300 text-gray-800 hover:text-gray-500 hover:text-teal-accent-400 text-xl"
                   >
                     Customers
                   </a>
@@ -136,39 +140,40 @@ export default function Footer() {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
+                    href="#"
+                    className="transition-colors duration-300 text-gray-800 hover:text-gray-500 hover:text-teal-accent-400 text-xl"
                   >
                     <span className="text-gray-800 font-bold text-xl">
                       Office:{" "}
-                      <span className="text-xl font-normal text-gray-700">
-                        88 Upper Coast Side, UK
+                      <span className="text-xl font-normal text-gray-700 text-justify">
+                        The Waterside, 5 Admiralty Road Off, Admiralty Way,
+                        Lekki Phase 1, Lagos, Nigeria.
                       </span>
                     </span>
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
+                    href="tel:+(234)8055316857"
+                    className="transition-colors duration-300 text-gray-800 hover:text-gray-500 hover:text-teal-accent-400 text-xl"
                   >
                     <span className="text-gray-800 font-bold text-xl">
                       Call Us:{" "}
                       <span className="text-xl font-normal text-gray-700">
-                        +9229922177288
+                        +(234)8055316857
                       </span>
                     </span>
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
+                    href="mailto:contactus@logicgraph.io"
+                    className="transition-colors duration-300 text-gray-800 hover:text-gray-500 hover:text-teal-accent-400 text-xl"
                   >
                     <span className="text-gray-800 font-bold text-xl">
                       Email Us:{" "}
                       <span className="text-xl font-normal text-gray-700">
-                        info@agricinuit.com
+                        contactus@logicgraph.io
                       </span>
                     </span>
                   </a>
@@ -183,7 +188,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400 text-xl"
+                    className="transition-colors duration-300 text-gray-800 hover:text-gray-500 hover:text-teal-accent-400 text-xl"
                   >
                     Infopreneur
                   </a>
@@ -216,7 +221,7 @@ export default function Footer() {
             </div> */}
           </div>
         </div>
-        <div className="flex flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row lg:px-5">
+        <div className="flex flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row lg:px-0">
           <p className="text-sm text-black">
             © Copyright 2023 AgricIntuit All rights reserved.
           </p>
@@ -225,13 +230,13 @@ export default function Footer() {
               href="/"
               className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400 text-xl hover:-translate-y-1 hover:p-2 bg-green p-2 rounded-full"
             >
-              <img src={Twitter} alt="Twitter" className="h-5"/>
+              <img src={Twitter} alt="Twitter" className="h-5" />
             </a>
             <a
               href="/"
               className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400 hover:-translate-y-1 hover:p-2 bg-green p-2 rounded-full"
             >
-               <img src={Linkedin} alt="Linkedin" className="h-5"/>
+              <img src={Linkedin} alt="Linkedin" className="h-5" />
             </a>
             {/* <a
               href="/"

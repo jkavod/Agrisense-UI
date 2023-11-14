@@ -8,37 +8,23 @@ export default function Example() {
 
   const quotes = [
     {
-      text: "AgricIntuit's precision tech transformed our farm, optimizing practices for sustainable growth and higher yields. Game-changer in agriculture!",
-      author: "Sarah Thompson",
-      role: "CEO of GreenHarvest Farms",
+      text: "With its easy-to-use interface and streamlined design, recording all the crucial information in one convenient location has never been more effortless.",
+      author: "Ada Mabel",
+      role: "Agropreneur",
       // imageUrl:
       //   "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
     {
-      text: "Efficient herds management with AgricIntuit's RFID tech. Livestock tracking made easy—essential for every livestock farmer seeking precision.",
-      author: "Mark Rodriguez",
-      role: "CEO of Harvest Innovations",
+      text: "So far more features than I have used so plenty of room to grow into and with it.",
+      author: "TJ Olubanji",
+      role: "TJ Livestock Ltd",
       // imageUrl:
       //   "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
     {
-      text: "Financial wizardry by AgricIntuit! Tools transformed our budgeting and planning. Confidence in resource utilization and profitability like never before.",
-      author: "Emily White",
-      role: "CEO of Sustainable Crops Co",
-      // imageUrl:
-      //   "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
-    {
-      text: "Real-time insights from AgricIntuit's AI sensors simplified tasks. Invaluable health insights for informed decisions on soil, plant, and animal conditions.",
-      author: "James Carter",
-      role: "CEO of Livestock Dynamics",
-      // imageUrl:
-      //   "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
-    {
-      text: "AgricIntuit's innovation is unmatched. Future-ready farms powered by comprehensive solutions. Precision farming at its finest, a true boon for agriculture.",
-      author: "Jennifer Brown",
-      role: "CEO of Profitable Fields Ltd",
+      text: "The Prescient AI Actions feature is an essential component that provides valuable and accurate insights to help make informed decisions. Its advanced capabilities enable me to predict potential outcomes and take proactive measures to achieve better results. Overall, this feature offers a comprehensive solution for me to stay ahead of the competition and achieve long-term success.",
+      author: "Dangi Dangana",
+      role: "Ecoregions Nigeria",
       // imageUrl:
       //   "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },

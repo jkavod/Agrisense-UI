@@ -72,11 +72,11 @@ export default function Body() {
         </div> */}
 
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-          <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
-            <div className="flex flex-col justify-center sm:items-center">
+          <div className="grid gap-5 row-gap-8 lg:grid-cols-2" id="pres-farm">
+            <div className="flex flex-col justify-center sm:items-center" id="pres-farm">
               <div className="mb-6" id="text-sec">
-                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                Precision Farming Revolution
+                {/* <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                Precision Farming Revolution */}
                   {/* <br className="hidden md:block" />
                   jumps over{" "}
                   <span className="relative px-1">
@@ -84,8 +84,9 @@ export default function Body() {
                     <span className="relative inline-block text-deep-purple-accent-400">
                       a lazy dog
                     </span>
-                  </span> */}
-                </h2>
+                  </span>
+                </h2> */}
+                <h1 className="mb-6 font-sans text-3xl font-bold  text-gray-900 sm:text-4xl">Precision Farming Revolution</h1>
                 <div className="lg:pr-20">
                 <p className="text-base text-justify text-gray-700 md:text-lg">
                 AgricIntuit pioneers precision farming, seamlessly integrating technology and agronomy. From precise seed placement using smart sensors to AI-driven harvesting, AgriSense ensures optimal yield. Predictive analytics empower farmers with actionable insights, elevating efficiency and sustainability. AgricIntuit's commitment extends to personalized consultancy, where expert agronomists collaborate with farmers. In the Precision Farming Revolution, AgricIntuit transforms agriculture into a data-driven, sustainable success.
@@ -93,14 +94,15 @@ export default function Body() {
                 </div>
               </div>
             </div>
+            <div className="flex items-center justify-center -mx-4 lg:pl-8">
             <div>
               <img
                 className="object-cover w-full h-56 rounded shadow-lg sm:h-96 bg-none"
-                // src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
                 src={ProactiveAI}
                 alt=""
               />
             </div>
+          </div>
           </div>
         </div>
 
@@ -129,7 +131,7 @@ export default function Body() {
                       <p className="text-end text-xl w-[350px]">
                         Farmers face inefficiencies, crop diseases, pests,
                         weather uncertainties, yield variations, and
-                        sustainability issues. AgricSense uses precision
+                        sustainability issues. AgricIntuit uses precision
                         technology that monitors weather, soil quality, and
                         animal health, together with advanced algorithms and
                         data analysis, to provide insights and statistics in
@@ -144,7 +146,7 @@ export default function Body() {
                     <p className="text-end text-sm w-[250px]">
                       Farmers face inefficiencies, crop diseases, pests, weather
                       uncertainties, yield variations, and sustainability
-                      issues. AgricSense uses precision technology that monitors
+                      issues. AgricIntuit uses precision technology that monitors
                       weather, soil quality, and animal health, together with
                       advanced algorithms and data analysis, to provide insights
                       and statistics in real-time to optimize farming practices
@@ -157,16 +159,16 @@ export default function Body() {
                     </div>
                     <h1 className="text-2xl">Comprehensive Health Insights</h1>
                     <p className="text-end text-sm w-[250px]">
-                      AgricSense is the ultimate solution for farmers who need
+                      AgricIntuit is the ultimate solution for farmers who need
                       to assess the conditions of soil, plants, and animals.
-                      With cutting-edge sensors and AI, AgricSense simplifies
+                      With cutting-edge sensors and AI, AgricIntuit simplifies
                       this complex and time-consuming task. It provides farmers
                       with detailed reports and recommendations based on the
                       data it gathers.
                     </p>
                   </div>
                 </div>
-                <div className="AppImg">
+                <div className="AppImg flex justify-center">
                   <img src={SplashA} alt="" className="w-[300px]" />
                 </div>
                 <div className="flex flex-col gap-20">
@@ -197,7 +199,7 @@ export default function Body() {
                       tracking, income recording, and financial analysis to
                       optimize resource utilization and profitability. Through
                       sophisticated financial tracking tools that record farming
-                      operation income and expenses, AgricSense allows farmers
+                      operation income and expenses, AgricIntuit allows farmers
                       to confidently track their farm finances, manage them, and
                       plan for the future.
                     </p>
@@ -208,7 +210,7 @@ export default function Body() {
                     </div>
                     <h1 className="text-2xl">Herds Management</h1>
                     <p className="text-start text-sm w-[250px]">
-                      AgricSense's advanced RFID tagging and monitoring systems
+                      AgricIntuit's advanced RFID tagging and monitoring systems
                       provide livestock farmers with an efficient solution to
                       manage their herds, enabling them to confidently track the
                       well-being and activities of individual animals.

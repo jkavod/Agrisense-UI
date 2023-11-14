@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './style.css'
 
 export default function Pricing() {
   const [isAnnual, setIsAnnual] = useState(true);
@@ -48,7 +49,7 @@ export default function Pricing() {
           </div>
         </div>
 
-        <div className="max-w-sm mx-auto grid gap-6 lg:grid-cols-4 items-start lg:max-w-none">
+        <div className="max-w-sm mx-auto grid gap-6 md:max-w-full lg:grid-cols-4 items-start lg:max-w-full md:grid-cols-2">
           {/* Basic */}
           <div class="dark h-full">
             <div class="relative flex flex-col h-full p-6 rounded-2xl bg-white dark:bg-gray-100 border border-slate-200 dark:border-gray-100 shadow-lg shadow-slate-950/5">
